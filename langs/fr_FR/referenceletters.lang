@@ -1,0 +1,109 @@
+# <one line to give the program's name and a brief idea of what it does.>
+# Copyright (C) <year>  <name of author>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Générique
+#
+
+# Module label 'ModuleXXXName'
+# (where XXX is value of numeric property 'numero' of module)
+Module103258Name = Modèles de courriers
+# Module description 'ModuleXXXDesc'
+# (where XXX is value of numeric property 'numero' of module)
+Module103258Desc = Gére des modèles de courrier
+
+#
+# Permissions
+#
+Permission1032581=Voir les modèles de courrier
+Permission1032582=Modifier les modèles de courrier
+Permission1032583=Supprimer les modèles de courrier
+Permission1032584=Utiliser les modèles de courrier
+
+#
+# Page d'administration
+#
+ReferenceLettersSetup = Configuration du module Modèle de courrier
+ReferenceLettersSettings = Réglages
+ReferenceLettersSetupPage = Page de réglage de Modèle de courrier
+RefLtrNothingToSet = Il n'y a pas de paramétrage spécifique à ce module. Aller dans le module Modèle de courrier.
+RefLtrSimpleNumRefModelDesc=Renvoie le numéro sous la forme LTR-yymm-nnnn où yy est l'année, mm le mois et nnnn un compteur séquentiel sans rupture et sans remise à 0
+RefLtrREF_LETTER_CREATEEVENT=Crée un evenement dans l'agenda lors de la création d'un courrier
+RefLtrHelpREF_LETTER_CREATEEVENT=Crée un evenement dans l'agenda lors de la création d'un courrier
+RefLtrREF_LETTER_EVTCOPYFILE=Copie le courrier PDF dans les fichiers joints de l'évenement crée
+RefLtrHelpREF_LETTER_EVTCOPYFILE=Copie le courrier PDF dans les fichiers joints de l'évenement crée
+RefLtrConfirmChangeState=Etes-vous sûr de changer cette option ?
+RefLtrREF_LETTER_TYPEEVENTNAME=Nom de l'évenement crée
+RefLtrREF_LETTER_TYPEEVENTNAME_normal=<Nouveau modèle de courrier  {ref_int}>
+RefLtrREF_LETTER_TYPEEVENTNAME_other=<{Titre du modéle} - {nom du client}>
+RefLtrREF_LETTER_OUTPUTREFLET=Afficher le titre et la référence du courrier dans l'entête du document PDF
+
+#
+# Page À propos
+#
+About = À propos
+ReferenceLettersAbout = À propos de Modèles de courriers
+ReferenceLettersAboutPage = Page à propos de Modèles de courriers
+
+#
+# Menu
+#
+RefLtrList=Liste des modèles de courrier
+RefLtrNew=Nouveau modèle de courrier
+RefLtrLetters=Courrier
+
+#
+# Pages
+#
+RefLtrCreate=Nouveau modèle de courrier
+RefLtrTitle=Titre
+RefLtrElement=Type d'objet pour le courrier
+RefLtrDelete=Supprimer le modèle de courrier
+RefLtrConfirmDelete=Êtes-vous sûre de supprimer le modèle de courrier ?
+RefLtrDeleteChapter=Supprimer un chapitre
+RefLtrConfirmDeleteChapter=Êtes-vous sûr(e) de supprimer le chapitre ?
+RefLtrChapters=Chapitres
+RefLtrNewChaters=Nouveau chapitre
+RefLtrNew=Nouveau modèle de courrier
+RefLtrOptionHelp=Chaque ligne produira un alinéa sur le documents
+RefLtrBackToRefLtr=Retour au modèle de courrier
+RefLtrList=Liste des modèles de courrier
+RefLtrLangue=Langue
+RefLtrPosition=Numéro d'ordre
+RefLtrOption=Liste des options
+RefLtrText=Texte
+RefLtrNoModelReadyForThisObject=Le module modèle de courrier n'est pas encore utilisatble pour %s
+RefLtrSelectModel=Sélectionner le modèle
+RefLtrCreateDoc=Créer la lettre
+RefLtrRef=Courrier Ref.
+RefLtrExistingLetters=Lettres existantes
+RefLtrNewLetters=Nouveau courrier
+RefLtrConfirmDeleteLetter=Êtes-vous sûre de supprimer ce courrier ?
+RefLtrDeleteLetter=Supprimer un courrier
+RefLtrDatec=Date de création
+RefLtrTag=Tag
+RefLtrDisplayTag=Afficher les tags
+RefLtrNoneExists=Aucun(e) %s existe, impossible d'afficher un exemple
+RefLtrAddPageBreak=Ajouter un saut de page
+RefLtrPageBreak=Saut de page
+RefLtrAddPageBreakWithoutHeader=Saut de page (sans répéter l'entête sur la page suivante)
+RefLtrListInstance=Liste des courriers
+RefLtrDoc=Document
+RefLtrErrorCopyFile=Erreur durant la copie du document PDF de la lettre sur l'événement de l'agenda
+RefLtrBackground=Image de fond
+RefLtrBackgroundHelp=Seul les fichiers PDF seront utilisé comme image de fond des courriers généré. Un seul fichier (le premier) sera utilisé. Les liens (URL) seront ignorés. <BR> Seul les saut de pages "manuel" seront avec l'image de fond 
+RefLtrReadOnly=Lecture seul (invisible lors de la création de la lettre)
+RefLtrTitleModel=Titre modèle de courrier

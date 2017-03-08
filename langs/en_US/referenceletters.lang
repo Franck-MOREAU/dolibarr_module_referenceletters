@@ -1,0 +1,109 @@
+# <one line to give the program's name and a brief idea of what it does.>
+# Copyright (C) <year>  <name of author>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleXXXName'
+# (where XXX is value of numeric property 'numero' of module)
+Module103258Name = Letter template
+# Module description 'ModuleXXXDesc'
+# (where XXX is value of numeric property 'numero' of module)
+Module103258Desc = Manage Reference Letters (models of letter to send)
+
+#
+# Permissions
+#
+Permission1032581=See letters templates
+Permission1032582=Modify letters templates
+Permission1032583=Delete letters templates
+Permission1032584=Use letters templates
+
+#
+# Admin page
+#
+ReferenceLettersSetup = letters templates setup
+ReferenceLettersSettings = Settings
+ReferenceLettersSetupPage = letters templates setup page
+RefLtrNothingToSet = This module has no particular settings. Go to the main menu tab "letters templates".
+RefLtrSimpleNumRefModelDesc=Return reference like LTR-yymm-nnnn where yy is the year, mm the month and nnnn a sequancial counter without reset
+RefLtrREF_LETTER_CREATEEVENT=Create calendar event on letters creation
+RefLtrHelpREF_LETTER_CREATEEVENT=Create calendar event on letters creation
+RefLtrREF_LETTER_EVTCOPYFILE=Copy PDF letter as attachement of event
+RefLtrHelpREF_LETTER_EVTCOPYFILE=Copy PDF letter as attachement of event
+RefLtrConfirmChangeState=Are you sure to change this option?
+RefLtrREF_LETTER_TYPEEVENTNAME=Label of created event
+RefLtrREF_LETTER_TYPEEVENTNAME_normal=<New letter template  {ref_int}>
+RefLtrREF_LETTER_TYPEEVENTNAME_other=<{model title} - {customer name}>
+RefLtrREF_LETTER_OUTPUTREFLET=On PDF output title and ref in header
+
+#
+# About page
+#
+About = About
+ReferenceLettersAbout = About Letter template
+ReferenceLettersAboutPage = Letter template about page
+
+#
+# Menu
+#
+ReferenceLettersList=List of Letter templates
+ReferenceLettersNew=New letter template
+RefLtrLetters=Letters
+
+#
+# Pages
+#
+RefLtrCreate=New letter template
+RefLtrTitle=Title
+RefLtrElement=Type of element
+RefLtrDelete=Delete Letter template
+RefLtrConfirmDelete=Are you sure to delete this letter template ?
+RefLtrDeleteChapter=Delete chapter
+RefLtrConfirmDeleteChapter=Are you sure to delete this chapter ?
+RefLtrChapters=Chapters
+RefLtrNewChaters=New chapter
+RefLtrNew=New Letter template
+RefLtrOptionHelp=Each line will be outputted as a new checkbox line on the document
+RefLtrBackToRefLtr=Back to letter template
+RefLtrList=Letters templates list
+RefLtrLangue=Language
+RefLtrPosition=Order number
+RefLtrOption=Options list
+RefLtrText=Text
+RefLtrNoModelReadyForThisObject=The letter template is not ready for %s
+RefLtrSelectModel=Select template
+RefLtrCreateDoc=Create Document
+RefLtrRef=Letter Ref.
+RefLtrExistingLetters=Existing Letters
+RefLtrNewLetters=New letter
+RefLtrConfirmDeleteLetter=Are you sure to delete this letter ?
+RefLtrDeleteLetter=Delete letter
+RefLtrDatec=Creation date
+RefLtrTag=Tag
+RefLtrDisplayTag=Display tags
+RefLtrNoneExists=%s not found (probaly no element yet), can't display exemple data
+RefLtrAddPageBreak=Add page break
+RefLtrPageBreak=Page break
+RefLtrAddPageBreakWithoutHeader=Page break (without repeat header on next page)
+RefLtrListInstance=Letter list
+RefLtrDoc=Document
+RefLtrErrorCopyFile=Error during copying letter PDF into event 
+RefLtrBackground=Background image
+RefLtrBackgroundHelp=Only PDF files will be use for backgound, and only first on will be use. Link (URL) will be ignore. <BR> Only page with "manual" break page will use background image
+RefLtrReadOnly=Read only (chapter invisible during letter edition)
+RefLtrTitleModel=Letter title
